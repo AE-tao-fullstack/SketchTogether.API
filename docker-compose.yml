@@ -4,3 +4,5 @@ services:
     build:
       context: .
       dockerfile: SketchTogether.API/Dockerfile
+    ports:
+      - "5000:5000"

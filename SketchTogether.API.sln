@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SketchTogether.API", "Sketc
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SketchTogether.Domain", "SketchTogether.Domain\SketchTogether.Domain.csproj", "{48B2A45B-BAD3-499D-92ED-0CB3B9505868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SketchTogether.Application", "SketchTogether.Application\SketchTogether.Application.csproj", "{5E56F3C8-2BBB-418E-B926-9DAA2AB33739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SketchTogether.Infrastructure", "SketchTogether.Infrastructure\SketchTogether.Infrastructure.csproj", "{5629D427-978E-4F0D-B72B-59DB2DD53BBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B2A45B-BAD3-499D-92ED-0CB3B9505868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B2A45B-BAD3-499D-92ED-0CB3B9505868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B2A45B-BAD3-499D-92ED-0CB3B9505868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B2A45B-BAD3-499D-92ED-0CB3B9505868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E56F3C8-2BBB-418E-B926-9DAA2AB33739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E56F3C8-2BBB-418E-B926-9DAA2AB33739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E56F3C8-2BBB-418E-B926-9DAA2AB33739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E56F3C8-2BBB-418E-B926-9DAA2AB33739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5629D427-978E-4F0D-B72B-59DB2DD53BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5629D427-978E-4F0D-B72B-59DB2DD53BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5629D427-978E-4F0D-B72B-59DB2DD53BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5629D427-978E-4F0D-B72B-59DB2DD53BBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
