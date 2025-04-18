@@ -1,0 +1,6 @@
+services:
+  sketchtogether.api:
+    image: ${DOCKER_REGISTRY-}sketchtogetherapi
+    build:
+      context: .
+      dockerfile: SketchTogether.API/Dockerfile
